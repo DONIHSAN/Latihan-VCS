@@ -6,13 +6,13 @@
 
 Untuk menginstall Git, Anda perlu mengunduh file-nya terlebih dahulu di situs resminya. Download sesuai tipe sistem operasi pada komputer Anda. Apabila tipe sistem operasi komputer Anda 64bit,  pilih Git yang mendukung Windows 64bit. Tujuannya adalah agar tidak terjadi error saat proses instalasi.
 
-![gambar 1](screenshot/ss1)
+![gambar 1](screenshot/ss%201.png)
 
 2. Install Git
 
 Setelah selesai mengunduh file Git, buka setup aplikasi Git untuk memulai proses instalasi. Halaman awal setelah Anda membuka setup aplikasi Git adalah tampilan Document License dari Git. Klik Next untuk melanjutkan instalasi.
 
-![gambar 2](screenshot/ss2)
+![gambar 2](screenshot/ss%202.png)
 
 3. Tentukan Lokasi Instalasi Git
 
@@ -112,7 +112,7 @@ Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berik
 
 $ git config --list
 
-![gambar 16]()
+![gambar 16](screenshot/ss%2016.png)
 
 2. Login Github
 
@@ -120,21 +120,21 @@ Langkah kedua dalam belajar menggunakan Git adalah Anda harus login ke dalam web
 
 Setelah Anda login, akan muncul tampilan dashboard dari GitHub seperti  gambar di bawah ini.
 
-![gambar 17]()
+![gambar 17](screenshot/ss%2017.png)
 
 3. Buat Respitory
 
 Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.
 
-![gambar 18]()
+![gambar 18](screenshot/ss%2018.png)
 
 Kemudian Anda akan diarahkan pada halaman untuk membuat repository baru seperti gambar di bawah ini.
 
 Anda perlu mengisi detail informasi berikut:
 
--Nama Repository : digunakan untuk identitas repository yang dibuat.
--Deskripsi Repository : berfungsi untuk deskripsi dari repository yang dibuat.
--Jenis Repository   : jenis repository  dibagi menjadi Public dan Private. Ketika Anda mengatur repository menjadi Public, orang lain dapat melihat repository yang Anda buat. Sebaliknya, jika Anda mengaturnya sebagai Private, repository tersebut hanya bisa diakses oleh Anda.
+- Nama Repository : digunakan untuk identitas repository yang dibuat.
+- Deskripsi Repository : berfungsi untuk deskripsi dari repository yang dibuat.
+- Jenis Repository   : jenis repository  dibagi menjadi Public dan Private. Ketika Anda mengatur repository menjadi Public, orang lain dapat melihat repository yang Anda buat. Sebaliknya, jika Anda mengaturnya sebagai Private, repository tersebut hanya bisa diakses oleh Anda.
 
 Setelah mengisi detail informasi di atas, klik Create Repository.
 
@@ -142,15 +142,15 @@ Setelah mengisi detail informasi di atas, klik Create Repository.
 
 Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.
 
-![gambar 19]()
+![gambar 19](screenshot/ss%2019.1.png)
 
 5. Buka Folder Dengan Menggunakan Git Bash
 
-![gambar 20]()
+![gambar 20](screenshot/ss%2019.png)
 
 Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul seperti di bawah ini. 
 
-![gambar 21]()
+![gambar 21](screenshot/ss%2020.png)
 
 6. Ubah Folder Menjadi Repository
 
@@ -158,14 +158,14 @@ Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah beriku
 
 $ git init
 
-![gambar 22]()
+![gambar 22](screenshot/ss%2021.png)
 
 7. Tambahkan File ke Repository
 
 Untuk bisa menambahkan file ke repository GitHub, Anda perlu menerapkan langkah-langkah di bawah ini:
 
--Buat file di folder yang sudah dibuat (Test Git). Contohnya, di sini kami membuat file index.php
--Buka GitBash lalu masukkan perintah berikut:
+- Buat file di folder yang sudah dibuat (Test Git). Contohnya, di sini kami membuat file index.php
+- Buka GitBash lalu masukkan perintah berikut:
 
 $ git add index.php
 
@@ -179,7 +179,7 @@ $ git commit -m "first commit"
 
 Pada tutorial ini kami membuat first commit sebagai Commit pertama kami. Anda bebas membuat membuat nama Commit apa saja.
 
-![gambar 23]()
+![gambar 23](screenshot/ss%2022.png)
 
 9. Remote Repository Github
 
@@ -189,7 +189,7 @@ $ git remote add origin git@github.com:UserNameGit/NamaRepository.git
 
 Perintah di atas tidak akan menghasilkan output apa pun.
 
-![gambar 24]()
+![gambar 24](screenshot/ss%2023.png)
 
 10. Push ke GitHub 
 
@@ -199,17 +199,17 @@ git push -u origin master
 
 Perintah di atas akan menampilkan pop up sign in GitHub. Anda perlu login untuk melanjutkan proses push ke GitHub.
 
-![gambar 25]()
+![gambar 25](screenshot/ss%2024.png)
 
 Jika proses login berhasil, akan muncul tampilan Command Prompt seperti di bawah:
 
-![gambar 26]()
+![gambar 26](screenshot/ss%2025.png)
 
 11. Cek File 
 
 Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file-file yang telah ditambahkan sebelumnya. Pada tutorial ini kami menambahkan tiga file, yaitu index.php, single.php, dan README.txt.
 
-![gambar 27]()
+![gambar 27](screenshot/ss%2026.png)
 
 ## Kesimpulan
 
